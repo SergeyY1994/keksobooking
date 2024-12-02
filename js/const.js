@@ -38,6 +38,14 @@ const OFFER_TYPES = [
   'hotel'
 ];
 
+const OFFER_TYPES_DICT = {
+  palace: 'Дворец',
+  flat: 'Квартира',
+  house: 'Дом',
+  bungalow: 'Бунгало',
+  hotel: 'Отель'
+};
+
 const OFFER_FEATURES = [
   'wifi',
   'dishwasher',
@@ -66,6 +74,7 @@ export {
   OFFER_DESCRIPTIONS,
   OFFER_PHOTOS,
   OFFER_TYPES,
+  OFFER_TYPES_DICT,
   OFFER_FEATURES,
   CHECKIN_TIME,
   CHECKOUT_TIME,

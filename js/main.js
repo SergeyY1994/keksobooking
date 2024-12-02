@@ -1,3 +1,4 @@
-import { createSimilarOrrers } from './modules/data.js';
+import { createCards } from './modules/cards.js';
 
-createSimilarOrrers();
+createCards();
+
